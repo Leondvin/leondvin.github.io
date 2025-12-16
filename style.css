@@ -27,6 +27,7 @@ tr {
 }
 th {
     padding: 16px;
+    border-left: 1px solid grey;
 }
 tbody th {
     background-color: lightgrey;
@@ -46,21 +47,28 @@ tr td {
 .wrapper {
     display: inline-flex;
     margin: 0 auto;
-    width: calc(40% - 10px);
+    width: 100%;
     height: auto;
     border: 1px solid grey;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
+#main-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    gap: 10px;
+}
 .vertical-title {
     font-size: 2rem;
     letter-spacing: 0.5rem;
-    height: 504px;
+    min-height: 504px;
     width: auto;
-    border-left: 1px solid grey;
     writing-mode: vertical-lr;
     rotate: 180deg;
+    box-shadow: 1px 0 8px rgba(0, 0, 0, 0.5);
 }
 #last-row {
     border: none;
