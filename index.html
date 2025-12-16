@@ -1,9 +1,83 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Elemaent</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
 <body>
-  <h1>Leondvin</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1>HTML Table</h1>
+    </header>
+        <!-- tags table -->
+        <div class="wrapper">
+            <div class="vertical-title">TAGS</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Tags</th>
+                        <th scope="col">Definition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="top-border-none">
+                        <th class="tag" scope="row">&lt;table&gt;</th>
+                        <td class="definition">Defines a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tag" scope="row">&lt;thead&gt;</th>
+                        <td class="definition">Composes the head section of a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tag" scope="row">&lt;tbody&gt;</th>
+                        <td class="definition">Composes the body section of a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tag" scope="row">&lt;tfoot&gt;</th>
+                        <td class="definition">Composes the footer section of a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tag" scope="row">&lt;tr&gt;</th>
+                        <td class="definition">Defines a table row</td>
+                    </tr>
+                    <tr>
+                        <th class="tag" scope="row">&lt;th&gt;</th>
+                        <td class="definition">Defines a table head inside row</td>
+                    </tr>
+                    <tr>
+                        <th class="tag" scope="row">&lt;td&gt;</th>
+                        <td class="definition">Defines a table data inside row</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- <div id="vertical-col-header"></div> -->
+         <!-- attributes table -->
+         <div class="wrapper">
+            <div class="vertical-title">ATTRIBUTES</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Attributes</th>
+                        <th scope="col">Definition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="top-border-none">
+                        <th class="attribute" scope="row">colspan</th>
+                        <td class="definition">Defines a table</td>
+                    </tr>
+                    <tr>
+                        <th class="attribute" scope="row">rowspan</th>
+                        <td class="definition">Composes the head section of a table</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    <div id="created-by"><p>created with ❤️ by <span id="creator">kerem</span></p></div>
 </body>
-
 </html>
