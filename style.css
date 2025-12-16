@@ -1,0 +1,108 @@
+body {
+    font-family: "Space Mono", monospace;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 16px;
+}
+thead tr {
+    height: auto;
+    width: auto;
+    text-align: left;
+    font-size: 1.25rem;
+    border: none;
+    background-color: grey;
+    color: whitesmoke;
+}
+thead tr th:nth-child(1) {
+    text-align: center;
+}
+tr {
+    border-top: 1px dashed grey;
+}
+.top-border-none {
+    border-top: none;
+}
+th {
+    padding: 16px;
+}
+tbody th {
+    background-color: lightgrey;
+}
+tr td {
+    border-left: 1px dashed grey;
+    padding: 16px;
+    font-family: "Space Grotesk", sans-serif;
+    text-align: left;
+    color: grey;
+}
+.tag, .attribute {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.wrapper {
+    display: inline-flex;
+    margin: 0 auto;
+    width: calc(40% - 10px);
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.vertical-title {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    height: 504px;
+    width: auto;
+    border-left: 1px solid grey;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+}
+#last-row {
+    border: none;
+    height: 24px;
+}
+#last-row td {
+    padding: 0;
+    /* border-top: 1px dashed grey; */
+    border-left: none;
+    background-color: grey;
+    text-align: center;
+    font-size: 0.75rem;
+    color: lightgray;
+}
+
+/* Vertical col header */
+/* #vertical-col-header {
+    height: 476px;
+    width: 48px;
+    background-color: lightgrey;
+    position: absolute;
+    top: 92px;
+    left: 540px;
+    z-index: -1;
+    border-radius: 200px;
+} */
+#created-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 80%;
+    height: 32px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 16px;
+    font-size: 0.75rem;
+}
+#creator {
+    font-weight: bold;
+}
+#creator:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
